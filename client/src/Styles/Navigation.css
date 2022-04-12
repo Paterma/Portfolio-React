@@ -3,15 +3,15 @@ background-color: #310a31 !important;
 }
 
 .navbar-nav {
-    text-align: center !important;
+    /* text-align: center !important;
     align-items: center !important;
-    
+     */
 }
 
 .nav-item {
-align-items: center !important;
+/* align-items: center !important;
 text-align: center !important;
-justify-content: center;
+justify-content: center; */
 
 }
 li {

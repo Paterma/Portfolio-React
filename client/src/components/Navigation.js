@@ -6,7 +6,7 @@ function Navigation() {
     return (
 <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav justify-content-center">
         <li class="nav-item">
             <a class="nav-link" href="#aboutMe">About Me</a>
         </li>
