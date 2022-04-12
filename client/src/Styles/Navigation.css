@@ -1,0 +1,35 @@
+.navbar-expand-lg{
+background-color: #310a31 !important;   
+}
+
+.navbar-nav {
+    text-align: center !important;
+    align-items: center !important;
+    
+}
+
+.nav-item {
+align-items: center !important;
+text-align: center !important;
+justify-content: center;
+
+}
+li {
+    color: black;
+    padding: 3px;
+    font-weight: bold;
+    align-items: center !important;
+}
+
+/* When you hover over a list item it changes background color and font */
+li a:hover {
+    background-color: rgb(134, 134, 134);
+}
+/* Changing the link colors to stand out more */
+li a:link {
+    color: rgb(255, 255, 255) !important;
+}
+/* Change the link colors once visited */
+li a:visited {
+    color: rgb(180, 166, 202) !important;
+}
