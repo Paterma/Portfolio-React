@@ -1,4 +1,5 @@
 import React from 'react';
+
 import '../Styles/Navigation.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -6,7 +7,8 @@ function Navigation() {
     return (
 <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
-        <ul class="navbar-nav justify-content-center">
+    <a class="navbar-brand" id='myName'>Maria Paterno</a>
+        <ul class="navbar-nav">
         <li class="nav-item">
             <a class="nav-link" href="#aboutMe">About Me</a>
         </li>

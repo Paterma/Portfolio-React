@@ -1,17 +1,21 @@
-.navbar-expand-lg{
+.navbar{
 background-color: #310a31 !important;   
 }
 
 .navbar-nav {
-    /* text-align: center !important;
+    text-align: center !important;
     align-items: center !important;
-     */
+    
 }
-
+.navbar-brand{
+    font-size: 40px !important;
+    font-family: 'La Belle Aurore', cursive;
+    color: white;  
+}
 .nav-item {
-/* align-items: center !important;
+align-items: center !important;
 text-align: center !important;
-justify-content: center; */
+justify-content: center;
 
 }
 li {
