@@ -1,6 +1,11 @@
-#contact-form {
-    height: 400px;
-    width: 500px;
-    border: 5px black solid;
-    justify-content: center;
+#contact {
+    margin-right: 125px;
+    margin-left: 125px;
+    justify-content: center !important;
+    align-items: center;
+margin-top: 200px;
+background-color:#310a31 ;
+padding: 15px;
+border-radius: 25px;
+box-shadow: #5f7470 0px 0px 0px 3px, #889696 0px 0px 0px 6px, #b8bdb5 0px 0px 0px 9px,#d2d4c8 0px 0px 0px 12px, #e0e2db 0px 0px 0px 15px;
 }

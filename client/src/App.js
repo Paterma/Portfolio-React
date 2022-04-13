@@ -1,11 +1,11 @@
 // export default App;
-import { motion } from "framer-motion"
 import './App.css';
 import Header from './/components/Header';
-import Footer from './/components/Footer'
-import Navigation from './/components/Navigation'
-import Project from './/components/Project'
-import Contact from './/components/ContactForm'
+
+import Navigation from './/components/Navigation';
+import Project from './/components/Project';
+import Contact from './/components/ContactForm';
+import Footer from './/components/Footer';
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
