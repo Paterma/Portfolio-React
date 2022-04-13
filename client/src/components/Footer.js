@@ -4,8 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 
 function Footer(){
-    
-{/* <footer id="Contact-Me">
+{/* <footer id="contact">
 <ul class="nav justify-content-center">
     <li class="nav-item">
         <a class="nav-link" href="https://www.linkedin.com/in/maria-paterno-b4a0271b5/" target="_blank">LinkedIn</a>
@@ -17,9 +16,9 @@ function Footer(){
     <a class="nav-link" href="https://docs.google.com/document/d/1lrr9xi5yAKFavVbg0Czarp1l27SDLGmPn29Z3JxPxpg/export?format=pdf" download="Paterno-Resume" target="_blank">Resume PDF Download</a>
     </li>
 </ul>
-</footer> */}
-<p>FOOTER TEXT!</p>
+</footer>  */}
 }
 
 
 export default Footer;
+

@@ -3,15 +3,30 @@
     height: 150px;
   }
   #profile {
-border: 3px purple solid;
-max-height: 200px;
+ 
+    min-height: 350px;
+    /* min-width: 350px; */
+    max-height: 800px;
+    justify-content: center !important;
+    align-items: center !important;
+    border-radius: 75px !important;
+    box-shadow: rgba(115, 165, 132, 0.4) 5px 5px, rgba(104, 145, 131, 0.3) 10px 10px, rgba(85, 116, 91, 0.2) 15px 15px, rgba(68, 104, 82, 0.1) 20px 20px, rgba(47, 63, 55, 0.05) 25px 25px;
   }
-.img-fluid {
-padding: 25px;
-margin-bottom: 20px;
+#profile:hover {
+  transform: none;
 }
 
+.img-fluid {
+padding: 25px;
+}
 
+h1 {
+  font-size: 80px !important;
+   text-shadow: 0 0 20px rgb(103, 103, 104), 0 0 20px #4e476e, 0 0 20px #583c7e, 0 0 30px #8971b6, 0 0 30px #a19fa0, 0 0 30px #a997c7, 0 0 40px #837991;
+   font-family: 'La Belle Aurore', cursive;
+   margin: 25px;
+   padding: 25px;
+}
   .header img {
     margin: 0;
     padding-top: 30px;
@@ -28,7 +43,16 @@ padding: 20px;
   }
 
 p {
-  border: 1px black solid;
-  margin: 20px;
-  padding: 20px;
+  border: 5px black solid;
+  border-radius: 100%;
+  padding: 100px 100px 100px 100px !important;
+  margin: 50px 50px 50px 50px !important;
+  font-size: x-large;
+  background: #010400;
+  margin-bottom: 300px !important;
+  margin-top: 100px !important;
+box-shadow: #360568 0px 0px 0px 2px inset, rgb(0, 0, 0) 10px -10px 0px -3px, #5b2a86 10px -10px, rgb(0, 0, 0) 20px -20px 0px -3px, #7785ac 20px -20px, rgb(0, 0, 0) 30px -30px 0px -3px, #9ac6c5 30px -30px, rgb(0, 0, 0) 40px -40px 0px -3px, #a5e6ba 40px -40px;
 }
+
+/* box-shadow: rgb(63, 15, 141) 0px 0px 0px 2px inset, rgb(0, 0, 0) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(0, 0, 0) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(0, 0, 0) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(0, 0, 0) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px;
+} */

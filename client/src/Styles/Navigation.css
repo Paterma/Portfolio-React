@@ -1,10 +1,23 @@
 .navbar{
-background-color: #310a31 !important;   
+background-color: #010400 !important;  
+padding: 30px;
+}
+
+button {
+ border-radius: 100px;
+ background-color: #5c6f68;
+ border: 3px solid #a690a4 ;
+ color: white;
+ size: 150%;
+ margin-right: 50px;
+ margin-left: 50px;
+ width: 120px;
+ height: 50px;
+ 
 }
 
 .navbar-nav {
-    text-align: center !important;
-    align-items: center !important;
+
     
 }
 .navbar-brand{
@@ -13,9 +26,7 @@ background-color: #310a31 !important;
     color: white;  
 }
 .nav-item {
-align-items: center !important;
-text-align: center !important;
-justify-content: center;
+
 
 }
 li {
@@ -26,14 +37,14 @@ li {
 }
 
 /* When you hover over a list item it changes background color and font */
-li a:hover {
-    background-color: rgb(134, 134, 134);
+button:hover {
+    background-color: #acbfa4;
 }
 /* Changing the link colors to stand out more */
-li a:link {
+button:acive {
     color: rgb(255, 255, 255) !important;
 }
 /* Change the link colors once visited */
-li a:visited {
+button:visited {
     color: rgb(180, 166, 202) !important;
 }

@@ -1,29 +1,78 @@
 import React from 'react';
-
+import scrollTo from "gatsby-plugin-smoothscroll"
 import '../Styles/Navigation.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function Navigation() {
     return (
-<nav class="navbar navbar-expand-lg">
-    <div class="container-fluid">
-    <a class="navbar-brand" id='myName'>Maria Paterno</a>
-        <ul class="navbar-nav">
+ <nav class="navbar navbar-expand-lg justify-content-center">
+     {/* <a class="navbar-brand" id='myName'>Maria Paterno</a> <br></br> */}
+    <div class="">
+    
+        <ul class="navbar-nav align-items-center">
         <li class="nav-item">
-            <a class="nav-link" href="#aboutMe">About Me</a>
+            <button onClick={() => scrollTo("#header")}>About</button>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#Contact-Me">Contact Me</a>
+        <button onClick={() =>scrollTo("#work")}>Work</button>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#Work">Projects</a>
+            <button onClick={() => scrollTo("#contact")}>Contact Me</button>
         </li>
         </ul>
     </div>
-</nav>
+</nav> 
+
+
 
     );
     }
 
 
 export default Navigation;
+{/* <nav class="navbar navbar-expand-lg justify-content-center">
+{/* <a class="navbar-brand" id='myName'>Maria Paterno</a> <br></br> */}
+{/* <div class="">
+
+   <ul class="navbar-nav align-items-center">
+   <li class="nav-item">
+       <button onClick={() => scrollTo("#header")}>About</button>
+       
+   </li>
+   <li class="nav-item">
+   <button onClick={() =>scrollTo("#work")}>Work</button>
+   </li>
+   <li class="nav-item">
+       <button onClick={() => scrollTo("#contact")}>Contact Me</button>
+   </li>
+   </ul>
+</div>
+<div>Maria Paterno</div>
+</nav>  */} 
+
+
+
+
+
+
+
+
+{/* <div className="section">
+<div className="container">
+<div className="navbar-wrapper">
+    <div
+    role="button"
+    onClick={() => scrollTo("#home")}
+    className="name"
+    tabIndex={0}
+    >
+    Maria Paterno
+    </div>
+    <div className="links-wrapper">
+    <button onClick={() =>scrollTo("#work")}>Work</button>
+    <button onClick={() => scrollTo("#about")}>About</button>
+    <button onClick={() => scrollTo("#contact")}>Contact Me</button>
+    </div>
+</div>
+</div>
+</div> */}

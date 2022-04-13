@@ -1,5 +1,33 @@
-p {
+/* .container {
     border: 1px black solid;
-    margin: 20px;
-    padding: 20px;
+    margin: 50px;
+    padding: 50px;
+  } */
+  h3 {
+    font-family: 'Shadows Into Light Two', cursive;
+    margin-top: 45px;
+    color: #c9cad9;
   }
+
+  .nav-item {
+    color:#acbfa4;
+    font-family: 'Shadows Into Light Two', cursive;
+  }
+
+  .nav-item:hover {
+    /* background-color: #c9cad9;
+    border-radius: 100%;
+    padding: 5px; */
+  }
+
+ .nav-item:acive {
+    color: black !important;
+}
+
+img:hover {
+  transform: scale(1.15);
+}
+
+img {
+  box-shadow: rgba(28, 2, 49, 0.56) 0px 22px 70px 4px;
+}
