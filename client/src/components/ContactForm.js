@@ -2,13 +2,23 @@ import React, { useState } from 'react'
 import '../Styles/ContactForm.css'
 import "bootstrap/dist/css/bootstrap.min.css";
 import {Link} from 'react-router-dom'
-
+import validator from 'validator'
 
 
 function Contact() { 
-  // const [name, setName] = useState("");
-  // const [email, setEmail] = useState("");
-  // const [message, setMessage] = useState("");
+  const [emailError, setEmailError] = useState('')
+  const validateEmail = (e) => {
+    var email = e.target.value
+  
+    if (validator.isEmail(email)) {
+      setEmailError('Valid Email :)')
+    } else {
+      setEmailError('Enter valid Email!')
+    }
+  }
+  
+
+
     return (
         <form id='contact'>
               <div className="contact-form" >
@@ -17,7 +27,11 @@ function Contact() {
     </div>
         <div className="form-group">
           <label for="email">Email Address</label>
-          <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com"/>
+          <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com"
+          onChange={(e) => validateEmail(e)}></input> <br />
+          <span style={{
+            color: 'red',
+          }}>{emailError}</span>
         </div>
   
         <div className="form-group">
