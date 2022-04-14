@@ -30,7 +30,7 @@ function Contact() {
           <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com"
           onChange={(e) => validateEmail(e)}></input> <br />
           <span style={{
-            color: 'red',
+            color: 'green',
           }}>{emailError}</span>
         </div>
   
