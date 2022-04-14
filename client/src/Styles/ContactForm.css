@@ -9,3 +9,12 @@ padding: 15px;
 border-radius: 25px;
 box-shadow: rgba(29, 182, 54, 0.712) 0px 22px 70px 4px;
 }
+
+#submitBtn {
+    width: auto;
+    height: auto;
+    margin: auto;
+    margin-top: 10px;
+    color: white;
+    border: black;
+}

@@ -27,30 +27,30 @@ function Resume() {
 <div id='skills'>
     <h2>SKILLS</h2>
     <br></br>
-HTML
+HTML/CSS
 <div id="header">
 <div class="container">
   <div class="skills html">95%</div>
 </div>
 
-CSS
+JavaScript/jQuery
 <div class="container">
-  <div class="skills css">90%</div>
-</div>
-
-JavaScript
-<div class="container">
-  <div class="skills js">65%</div>
+  <div class="skills css">75%</div>
 </div>
 
 React
 <div class="container">
-  <div class="skills php">60%</div>
+  <div class="skills js">70%</div>
 </div>
 
-MongoDB
+MongoDB/MySQL
 <div class="container">
-  <div class="skills mongo">55%</div>
+  <div class="skills php">65%</div>
+</div>
+
+Handlebars
+<div class="container">
+  <div class="skills mongo">60%</div>
 </div>
 </div>
 </div> </div>

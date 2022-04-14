@@ -28,12 +28,3 @@ console.log(page)
 }
 
 export default App;
-
-
-    // <div class="App">
-    //   <Navigation />
-    //   <Header />
-    //   <Project />
-    //   <Contact />
-    //   <Footer />
-    // </div>

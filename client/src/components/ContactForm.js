@@ -36,7 +36,7 @@ function Contact() {
           <label for="message">Message</label>
           <textarea className="form-control" id="exampleFormControlTextarea1" placeholder="How did you get so awesome?" rows="3"></textarea>
         </div>
-        <button type="submit">Sumbit</button>
+        <button id='submitBtn' type="submit">Submit</button>
       </form>
     );
 };

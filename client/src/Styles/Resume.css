@@ -14,10 +14,10 @@
 }
 
 .html {width: 95%; background-color: #acbfa4;} /* Green */
-.css {width: 90%; background-color: #a26769;} /* Blue */
-.js {width: 65%; background-color: #e0ca3c;} /* Red */
-.php {width: 60%; background-color: #7d84b2;} /* Dark Grey */
-.mongo {width: 55%; background-color: #a690a4;} /* Dark Grey */
+.css {width: 75%; background-color: #a26769;} /* Blue */
+.js {width: 70%; background-color: #e0ca3c;} /* Red */
+.php {width: 65%; background-color: #7d84b2;} /* Dark Grey */
+.mongo {width: 60%; background-color: #a690a4;} /* Dark Grey */
 
 h2 {
     font-family: 'Shadows Into Light Two', cursive;

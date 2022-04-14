@@ -13,7 +13,7 @@ return (
 
     <div  class="row justify-content-around div"> 
     <h1>Maria Paterno</h1>
-    <div class="col-9">
+    <div class="col-10">
         <img src={Me} class="img-fluid" id='profile' alt="Profile Pic"/>
     </div> 
 <div id="header"><p>
