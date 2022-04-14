@@ -17,8 +17,6 @@ function Contact() {
     }
   }
   
-
-
     return (
         <form id='contact'>
               <div className="contact-form" >

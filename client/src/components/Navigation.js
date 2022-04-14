@@ -29,6 +29,9 @@ const [activeNav, setActiveNav] = useState("#")
         <li className="nav-item">
             <button onClick={() => setPage(pages[2])}>{pages[2]}</button>
         </li>
+        <li className="nav-item">
+            <button onClick={() => setPage(pages[3])}>{pages[3]}</button>
+        </li>
         </ul>
     </div>
 </nav> 

@@ -17,7 +17,7 @@ return (
         <img src={Me} class="img-fluid" id='profile' alt="Profile Pic"/>
     </div> 
 <div id="header"><p>
-Hello, and welcome to my portfolio! My name is Maria Paterno, and I'm currently attending a coding bootcamp at the University of Denver. I don't have any background in web prior to this; but I'm diving head first into the coding world. I enjoy the design aspect of coding and embrace the freedom to be creative. The purpose of this portfolio is to showcase my creations throughtout this course. Below you will see current examples of the work I have done so far- including this portfolio- and a little bit about myself.</p>
+Welcome to my portfolio! My name is Maria Paterno, and I'm currently attending a coding bootcamp at the University of Denver. I come from an extensive background in sales; but was eager for a change that sparked passion. This new role I'm taking on allows me to express my creativity, have the freedom to grow and explore different avenues, and continue to learn and be challenged in a field that is continuously changing. Everyday I'm striving to become everything I've ever dreamed of being; and taking small steps to become better as a web developer, and better as an individual.</p>
 </div>
 </div>
 );

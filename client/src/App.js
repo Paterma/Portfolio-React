@@ -5,12 +5,13 @@ import Navigation from './/components/Navigation';
 import Project from './/components/Project';
 import Contact from './/components/ContactForm';
 import Footer from './/components/Footer';
+import Resume from './/components/Resume';
 import "bootstrap/dist/css/bootstrap.min.css";
 import React, {useState} from 'react';
 
 function App() {
 
-const pages=["About", "Work", "Contact Me"]
+const pages=["About", "Work", "Contact Me", "Resume"]
 const [page, setPage] = useState(pages[0])
 console.log(page)
   return (
@@ -20,6 +21,7 @@ console.log(page)
 {page==="About"? <Header /> :null}
 {page==="Work"? <Project /> :null}
 {page==="Contact Me"? <Contact /> :null}
+{page==="Resume"? <Resume /> :null}
 <Footer />
 </div>
   );
