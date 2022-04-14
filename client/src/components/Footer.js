@@ -21,7 +21,7 @@ function Footer(){
     <a class="nav-link" href="https://github.com/Paterma" target="_blank"><BsGithub/></a>
     </li>
     <li class="nav-item">
-    <a class="nav-link" href="https://docs.google.com/document/d/1lrr9xi5yAKFavVbg0Czarp1l27SDLGmPn29Z3JxPxpg/export?format=pdf" download="Paterno-Resume" target="_blank"><FiDownload/></a>
+    <a class="nav-link" href="https://docs.google.com/document/d/1lrr9xi5yAKFavVbg0Czarp1l27SDLGmPn29Z3JxPxpg/export?format=pdf" download="Paterno-Resume" target="_blank" rel="noreferrer"><FiDownload/></a>
     </li>
 </ul>
 </footer>  
